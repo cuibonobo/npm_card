@@ -1,9 +1,7 @@
-It's me, Tierney!
+It's my npm card! Forked from [Tierney Cyren's excellent example](https://github.com/bnb/bitandbang).
 
 # Usage
 Via npx:
 ```
-npx bitandbang
+npx cuibonobo
 ```
-
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
