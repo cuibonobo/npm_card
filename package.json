@@ -11,7 +11,7 @@
     "url": "https://github.com/cuibonobo/cuibonobo.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
