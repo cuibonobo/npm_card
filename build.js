@@ -18,8 +18,8 @@ const options = {
 const data = {
   name: chalk.white.bold('           Jen Garcia'),
   handle: chalk.yellow.bold('cuibonobo'),
-  workTitle: chalk.white.bold('Lead Software Engineer'),
-  workCompany: chalk.gray('            at ') + chalk.white('Floyd County Productions'),
+  workTitle: chalk.white.bold('Software Engineer III'),
+  workCompany: chalk.gray('            at ') + chalk.white('NCR Corporation'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('cuibonobo'),
   github: chalk.gray('https://github.com/') + chalk.yellow('cuibonobo'),
   instagram: chalk.gray('https://instagram.com/') + chalk.red('cuibonobo'),
