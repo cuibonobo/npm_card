@@ -3,8 +3,9 @@
   "version": "1.1.0",
   "description": "A personal card for Jen Garcia (@cuibonobo)",
   "main": "/bin/card.js",
+  "type": "module",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "cuibonobo": "./bin/card.cjs"
   },
   "repository": {
     "type": "git",
@@ -13,8 +14,7 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
+    "dev": "npm run build && node ./bin/card.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,12 +28,11 @@
   "author": "Jen Garcia <jen@cuibonobo.com> (https://cuibonobo.com)",
   "license": "MIT",
   "files": [
-    "bin/card.js",
+    "bin/card.cjs",
     "bin/output"
   ],
   "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
+    "boxen": "^6.2.1",
+    "chalk": "^2.4.1"
   }
 }
