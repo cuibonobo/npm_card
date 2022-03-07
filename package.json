@@ -1,6 +1,6 @@
 {
   "name": "cuibonobo",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A personal card for Jen Garcia (@cuibonobo)",
   "main": "/bin/card.js",
   "type": "module",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "prepare": "npm run build",
-    "build": "node build.js",
+    "build": "node build.js --color",
     "dev": "npm run build && node ./bin/card.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
